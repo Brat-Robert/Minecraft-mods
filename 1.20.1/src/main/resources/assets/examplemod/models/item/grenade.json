@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "examplemod:item/grenade_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "examplemod:item/grenade_2d"
+    },
+    "ground": {
+      "parent": "examplemod:item/grenade_2d"
+    },
+    "fixed": {
+      "parent": "examplemod:item/grenade_2d"
+    }
+  }
+}

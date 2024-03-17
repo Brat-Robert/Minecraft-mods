@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:hellstone_block"
+    }
+  ],
+  "result": {
+    "item": "examplemod:hellstone",
+    "count": 9
+  }
+}

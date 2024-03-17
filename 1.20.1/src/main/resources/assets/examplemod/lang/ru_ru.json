@@ -1,0 +1,23 @@
+{
+  "item.examplemod.sapphire": "Сапфир",
+  "block.examplemod.sapphire_block": "Полированный сапфировый блок",
+  "block.examplemod.raw_sapphire_block": "Сапфировая руда блок",
+  "block.examplemod.hellstone_block": "адский камень блок ",
+  "block.examplemod.sapphire_stair": "Сапфировые ступеньки ",
+  "block.examplemod.sapphire_slab": "Сапфировый полублок ",
+  "block.examplemod.sapphire_button": "Сапфировая кнопка  ",
+  "block.examplemod.sapphire_pressure_plate": "Сапфировая нажимная плита ",
+  "block.examplemod.sapphire_fence": "Сапфировый забор  ",
+  "block.examplemod.sapphire_fence_gate": "Сапфировая калитка ",
+  "block.examplemod.sapphire_wall": "Сапфировая стена",
+  "block.examplemod.sapphire_door": "Сапфировая дверь",
+  "block.examplemod.sapphire_trapdoor": "Сапфировый люк",
+  "block.examplemod.firework": "батарейка фейерверков ",
+  "item.examplemod.hellstone": "адский камень",
+  "item.examplemod.metall_detector": "металл детектор",
+  "item.examplemod.sound_block": "блок музыки",
+  "item.examplemod.candy": "конфета",
+  "item.examplemod.pine_cone": "~Ёлочный конус",
+  "tooltip.examplemod.metal_detector.tooltip": "ищет руды в любой ситуации",
+  "item.examplemod.grenade": "граната"
+}

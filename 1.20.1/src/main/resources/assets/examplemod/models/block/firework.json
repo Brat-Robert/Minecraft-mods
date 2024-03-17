@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "examplemod:block/firework",
+    "up": "examplemod:block/firework-top",
+    "north": "examplemod:block/firework",
+    "south": "examplemod:block/firework",
+    "west": "examplemod:block/firework",
+    "east": "examplemod:block/firework"
+  }
+}
