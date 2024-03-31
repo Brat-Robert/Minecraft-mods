@@ -19,5 +19,6 @@
   "item.examplemod.candy": "конфета",
   "item.examplemod.pine_cone": "~Ёлочный конус",
   "tooltip.examplemod.metal_detector.tooltip": "ищет руды в любой ситуации",
-  "item.examplemod.grenade": "граната"
+  "item.examplemod.grenade": "граната",
+  "item.examplemod.ancientstone": "древний камень"
 }

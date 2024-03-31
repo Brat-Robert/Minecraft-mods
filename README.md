@@ -2,7 +2,7 @@
 [h]c(https://gpt-chatbot.ru/chatgpt-3-5-besplatno-i-bez-registracii)
 Магические руны: Добавление магических рун, которые можно использовать для создания заклинаний и колдовства.
 D
-ресурс: Древний камень
+ресурс: Древний камень  Ancient stone
     ModItems- описание вещи
     ModCreativeTab- в креативную вкладку
     datagen/ModItemModelProvider

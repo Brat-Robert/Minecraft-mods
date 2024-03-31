@@ -13,6 +13,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
 
+    public static final RegistryObject<Item> ANCIENT STONE = ITEMS.register("Ancient stone",
+
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
 

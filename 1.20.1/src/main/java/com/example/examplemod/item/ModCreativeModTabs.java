@@ -14,6 +14,14 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ExampleMod.MOD_ID);
+             DeferredRegister.create(Registries.ANTIENT_RUNE_TAB, ExampleMod.MOD_ID);
+
+    public static final RegistryObject<CreativeModeTab> ANTIENT_RUNE_TAB = CREATIVE_MODE_TABS.register("ancient_rune_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ANCIENT_RUNE.get()))
+                    .title(Component.translatable("creativetab.ancient_rune_tab"))
+                    .displayItems((pParameters, pOutput) ->{
+                        pOutput.accept(ModItems.ANCIENTSTONE.get());
+                    }
 
     public static final RegistryObject<CreativeModeTab> EXAMPLEMOD_TAB = CREATIVE_MODE_TABS.register("examplemod_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
@@ -26,6 +34,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CANDY.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
                         pOutput.accept(ModItems.GRENADE.get());
+
 
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
@@ -57,5 +66,6 @@ public class ModCreativeModTabs {
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
+        ANTIENT_RUNE_TAB.register(eventBus);
     }
 }
