@@ -20,5 +20,6 @@
   "item.examplemod.pine_cone": "~Ёлочный конус",
   "tooltip.examplemod.metal_detector.tooltip": "ищет руды в любой ситуации",
   "item.examplemod.grenade": "граната",
-  "item.examplemod.ancientstone": "древний камень"
+  "item.examplemod.ancientstone": "древний камень",
+  "block.examplemod.ancientstone_block": "древний камень блок"
 }
