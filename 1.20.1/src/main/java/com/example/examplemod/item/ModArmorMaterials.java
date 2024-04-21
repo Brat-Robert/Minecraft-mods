@@ -1,6 +1,7 @@
-package net.kaupenjoe.tutorialmod.item;
+package com.example.examplemod.item;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+
+import com.example.examplemod.ExampleMod;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
@@ -10,8 +11,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SAPPHIRE("sapphire", 26, new int[]{ 5, 7, 5, 4 }, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.SAPPHIRE.get()));
+    ANCIENTSTONE("ancientstone", 26, new int[]{ 5, 7, 5, 4 }, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.ANCIENTSTONE.get()));
+
 
     private final String name;
     private final int durabilityMultiplier;
@@ -63,7 +65,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return TutorialMod.MOD_ID + ":" + this.name;
+        return ExampleMod.MOD_ID + ":" + this.name;
     }
 
     @Override

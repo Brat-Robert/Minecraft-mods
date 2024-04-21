@@ -26,6 +26,9 @@
   "item.examplemod.ancientstone_shovel": "Древняя лопата",
   "item.examplemod.ancientstone_sword": "Древний меч",
   "item.examplemod.ancientstone_hoe": "Древняя мотыга",
-
+  "item.examplemod.ancientstone_helmet": "Древний шлем",
+  "item.examplemod.ancientstone_chestplate": "Древний мотыга",
+  "item.examplemod.ancientstone_leggins": "Древнии поножи",
+  "item.examplemod.ancientstone_boot": "Древнии ботинки",
   "block.examplemod.ancientstone_block": "древний камень блок"
 }
