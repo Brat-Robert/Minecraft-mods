@@ -32,10 +32,17 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                        pOutput.accept(ModItems.METALL_DETECTOR.get());
+                        //accept(ModItems.METALL_DETECTOR.get());
                         pOutput.accept(ModItems.CANDY.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
                         pOutput.accept(ModItems.GRENADE.get());
+
+                        pOutput.accept(ModItems.ANCIENTSTONE_AXE.get());
+                        pOutput.accept(ModItems.ANCIENTSTONE_HOE.get());
+                        pOutput.accept(ModItems.ANCIENTSTONE_PICKAXE.get());
+                        pOutput.accept(ModItems.ANCIENTSTONE_SHOVEL.get());
+                        pOutput.accept(ModItems.ANCIENTSTONE_SWORD.get());
+
 
 
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());

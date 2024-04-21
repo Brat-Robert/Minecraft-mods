@@ -21,5 +21,11 @@
   "tooltip.examplemod.metal_detector.tooltip": "ищет руды в любой ситуации",
   "item.examplemod.grenade": "граната",
   "item.examplemod.ancientstone": "древний камень",
+  "item.examplemod.ancientstone_axe": "Древний топор",
+  "item.examplemod.ancientstone_pickaxe": "Древняя кирка",
+  "item.examplemod.ancientstone_shovel": "Древняя лопата",
+  "item.examplemod.ancientstone_sword": "Древний меч",
+  "item.examplemod.ancientstone_hoe": "Древняя мотыга",
+
   "block.examplemod.ancientstone_block": "древний камень блок"
 }
